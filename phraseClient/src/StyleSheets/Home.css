@@ -1,0 +1,23 @@
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  color: #1b1b32;
+  border-radius: 4px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  position: absolute;
+  top: calc(50% + 120px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+}

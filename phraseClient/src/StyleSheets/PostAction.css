@@ -1,0 +1,37 @@
+.button-option {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.position-button {
+  text-align: center;
+  margin-left: auto; /* Mueve .position-button hacia la derecha */
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-option {
+  background-color: #80ed99;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-option:hover {
+  background-color: #64d787;
+  transform: translateY(-2px);
+}
+
+#quote-box .btn-option {
+  margin: 10px 10px 10px 0;
+}
